@@ -94,9 +94,10 @@ namespace SadConsole.Game
         public void Render()
         {
             renderer.Start();
-
+            
             for (int i = 0; i < backingList.Count; i++)
-                renderer.Render(backingList[i].Animation, GameObject.NoMatrix);
+                if (backingList[i].IsVisible)
+                    renderer.Render(backingList[i].Animation, GameObject.NoMatrix);
 
             renderer.End();
         }

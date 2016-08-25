@@ -6,7 +6,7 @@
     <SharedGUID>00cc441c-44bb-4b15-babd-6831b65c31d8</SharedGUID>
   </PropertyGroup>
   <PropertyGroup Label="Configuration">
-    <Import_RootNamespace>SadConsole.GameHelpers</Import_RootNamespace>
+    <Import_RootNamespace>SadConsole.Game</Import_RootNamespace>
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="$(MSBuildThisFileDirectory)AccidentalNoise\Cache.cs" />
@@ -53,8 +53,40 @@
     <Compile Include="$(MSBuildThisFileDirectory)AccidentalNoise\NoiseLookupTable.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)AccidentalNoise\Utilities.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Animation.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Entitas\EntitasException.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Entitas\Entity.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Entitas\Extensions\CollectionExtension.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Entitas\Extensions\GroupExtension.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Entitas\Extensions\IMatcherExtension.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Entitas\Extensions\PoolExtension.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Entitas\Extensions\TypeExtension.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Entitas\Group.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Entitas\GroupObserver.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Entitas\Interfaces\IComponent.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Entitas\Interfaces\IExecuteSystem.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Entitas\Interfaces\IInitializeSystem.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Entitas\Interfaces\IMatcher.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Entitas\Interfaces\IReactiveSystem.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Entitas\Interfaces\ISystem.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Entitas\Matcher\Matcher.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Entitas\Matcher\MatcherEquals.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Entitas\Matcher\MatcherInterfaces.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Entitas\Matcher\MatcherStatic.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Entitas\Matcher\MatcherToString.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Entitas\Matcher\TriggerOnEvent.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Entitas\Pool.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Entitas\ReactiveSystem.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Entitas\Serialization\Blueprints\Blueprint.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Entitas\Serialization\Blueprints\BlueprintEntityExtension.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Entitas\Serialization\Blueprints\ComponentBlueprint.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Entitas\Serialization\Blueprints\SerializableMember.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Entitas\Serialization\PublicMemberInfo.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Entitas\Serialization\TypeSerializationExtension.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Entitas\Systems.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)GameObject.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)GameObjectCollection.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Map.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Region.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)SimpleLayerMetadata.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)WorldGeneration\Generator.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)WorldGeneration\MapData.cs" />

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace SadConsole.Game.Entitas {
+namespace Entitas {
 
     /// Systems provide a convenient way to group systems. You can add IInitializeSystem, IExecuteSystem, ReactiveSystem and other nested Systems instances.
     /// All systems will be initialized and executed based on the order you added them.

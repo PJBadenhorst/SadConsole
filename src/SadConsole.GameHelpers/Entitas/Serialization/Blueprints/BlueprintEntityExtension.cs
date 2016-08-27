@@ -1,6 +1,6 @@
-﻿using SadConsole.Game.Entitas.Serialization.Blueprints;
+﻿using Entitas.Serialization.Blueprints;
 
-namespace SadConsole.Game.Entitas {
+namespace Entitas {
 
     public partial class Entity {
 

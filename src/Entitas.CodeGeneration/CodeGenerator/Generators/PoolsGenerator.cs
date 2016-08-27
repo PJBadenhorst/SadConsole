@@ -1,11 +1,11 @@
 ﻿using System.Linq;
-using SadConsole.Game.Entitas.CodeGenerator;
+using Entitas.CodeGenerator;
 
-namespace SadConsole.Game.Entitas.CodeGenerator {
+namespace Entitas.CodeGenerator {
     public class PoolsGenerator : IPoolCodeGenerator {
 
         const string FILE_NAME = "Pools";
-        const string CLASS_TEMPLATE = @"using SadConsole.Game.Entitas;
+        const string CLASS_TEMPLATE = @"using Entitas;
 
 public static class Pools {{{0}{1}
 }}";

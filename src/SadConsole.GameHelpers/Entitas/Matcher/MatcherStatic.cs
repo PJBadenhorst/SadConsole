@@ -1,4 +1,4 @@
-﻿namespace SadConsole.Game.Entitas {
+﻿namespace Entitas {
     public partial class Matcher {
         public static IAllOfMatcher AllOf(params int[] indices) {
             var matcher = new Matcher();

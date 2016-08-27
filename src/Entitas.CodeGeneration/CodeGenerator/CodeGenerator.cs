@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 
-namespace SadConsole.Game.Entitas.CodeGenerator {
+namespace Entitas.CodeGenerator {
     public static class CodeGenerator {
         public const string COMPONENT_SUFFIX = "Component";
         public const string DEFAULT_COMPONENT_LOOKUP_TAG = "ComponentIds";

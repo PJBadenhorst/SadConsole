@@ -1,4 +1,4 @@
-﻿namespace SadConsole.Game.Entitas {
+﻿namespace Entitas {
     public partial class Matcher {
         public override bool Equals(object obj) {
             if (obj == null || obj.GetType() != GetType() || obj.GetHashCode() != GetHashCode()) {

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace SadConsole.Game.Entitas {
+namespace Entitas {
 
     /// Use pool.GetGroup(matcher) to get a group of entities which match the specified matcher.
     /// Calling pool.GetGroup(matcher) with the same matcher will always return the same instance of the group.

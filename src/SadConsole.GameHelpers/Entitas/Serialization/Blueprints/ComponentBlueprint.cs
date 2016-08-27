@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-using SadConsole.Game.Entitas.Serialization;
+using Entitas.Serialization;
 
-namespace SadConsole.Game.Entitas.Serialization.Blueprints {
+namespace Entitas.Serialization.Blueprints {
 
     [Serializable]
     public class ComponentBlueprint {

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace SadConsole.Game.Entitas {
+namespace Entitas {
 
     /// Base exception used by Entitas.
     public class EntitasException : Exception {

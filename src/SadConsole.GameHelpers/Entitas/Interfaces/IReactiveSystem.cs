@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace SadConsole.Game.Entitas {
+namespace Entitas {
 
     /// Implement this interface if you want to create a reactive system which is triggered by the specified trigger.
     public interface IReactiveSystem : IReactiveExecuteSystem {

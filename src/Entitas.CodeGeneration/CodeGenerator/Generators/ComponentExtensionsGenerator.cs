@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using SadConsole.Game.Entitas.Serialization;
+using Entitas.Serialization;
 
-namespace SadConsole.Game.Entitas.CodeGenerator {
+namespace Entitas.CodeGenerator {
 
     public class ComponentExtensionsGenerator : IComponentCodeGenerator {
 
@@ -70,7 +70,7 @@ namespace SadConsole.Game.Entitas.CodeGenerator {
         }
 
         static string addNamespace() {
-            return @"namespace SadConsole.Game.Entitas {";
+            return @"namespace Entitas {";
         }
 
         static string closeNamespace() {

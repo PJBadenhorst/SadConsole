@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Reflection;
 
-namespace SadConsole.Game.Entitas.Serialization {
+namespace Entitas.Serialization {
 
     public class PublicMemberInfo {
 

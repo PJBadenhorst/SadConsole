@@ -1,15 +1,15 @@
 ﻿using System.Linq;
-using SadConsole.Game.Entitas.CodeGenerator;
+using Entitas.CodeGenerator;
 
-namespace SadConsole.Game.Entitas.CodeGenerator {
+namespace Entitas.CodeGenerator {
     
     public class BlueprintsGenerator : IBlueprintsCodeGenerator {
 
         const string FILE_NAME = "BlueprintsGeneratedExtension";
 
-        const string CLASS_FORMAT = @"using SadConsole.Game.Entitas.Serialization.Blueprints;
+        const string CLASS_FORMAT = @"using Entitas.Serialization.Blueprints;
 
-namespace SadConsole.Game.Entitas.Unity.Serialization.Blueprints {{
+namespace Entitas.Unity.Serialization.Blueprints {{
     public partial class Blueprints {{
 {0}
     }}

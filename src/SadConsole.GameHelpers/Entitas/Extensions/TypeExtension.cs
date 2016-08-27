@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Linq;
 
-namespace SadConsole.Game.Entitas {
+namespace Entitas {
 
     public static class TypeExtension {
 

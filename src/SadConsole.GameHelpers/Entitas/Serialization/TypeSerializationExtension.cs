@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text.RegularExpressions;
 
-namespace SadConsole.Game.Entitas.Serialization {
+namespace Entitas.Serialization {
 
     public static class TypeSerializationExtension {
 

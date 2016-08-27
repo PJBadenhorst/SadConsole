@@ -73,7 +73,7 @@
       <Private>True</Private>
     </Reference>
     <Reference Include="SadConsole.GameHelpers.Windows, Version=3.2.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\SadConsole.GameHelpers.3.3.0-pre\lib\net45\SadConsole.GameHelpers.Windows.dll</HintPath>
+      <HintPath>..\..\packages\SadConsole.GameHelpers.3.3.0-pre1\lib\net45\SadConsole.GameHelpers.Windows.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="System" />

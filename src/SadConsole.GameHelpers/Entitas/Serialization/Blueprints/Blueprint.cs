@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace SadConsole.Game.Entitas.Serialization.Blueprints {
+namespace Entitas.Serialization.Blueprints {
 
     [Serializable]
     public class Blueprint {

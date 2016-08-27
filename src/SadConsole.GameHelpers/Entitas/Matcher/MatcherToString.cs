@@ -1,6 +1,6 @@
 ﻿using System.Text;
 
-namespace SadConsole.Game.Entitas {
+namespace Entitas {
     public partial class Matcher {
 
         public string[] componentNames;

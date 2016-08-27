@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace SadConsole.Game.Entitas {
+namespace Entitas {
 
     /// Implement this interface if you want to create a system which needs a reference to a pool.
     /// Recommended way to create systems in general: pool.CreateSystem<RenderPositionSystem>();

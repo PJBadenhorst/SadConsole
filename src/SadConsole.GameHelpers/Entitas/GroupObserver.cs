@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace SadConsole.Game.Entitas {
+namespace Entitas {
 
     public enum GroupEventType : byte {
         OnEntityAdded,

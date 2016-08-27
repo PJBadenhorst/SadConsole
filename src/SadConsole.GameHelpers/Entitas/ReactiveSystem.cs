@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace SadConsole.Game.Entitas {
+namespace Entitas {
 
     /// A ReactiveSystem manages your implementation of a IReactiveSystem or a IMultiReactiveSystem subsystem.
     /// It will only call subsystem.Execute() if there were changes based on the triggers and eventTypes specified by your subsystem

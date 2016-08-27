@@ -1,4 +1,4 @@
-﻿namespace SadConsole.Game.Entitas.CodeGenerator {
+﻿namespace Entitas.CodeGenerator {
     public struct CodeGenFile {
         public string fileName;
         public string fileContent;

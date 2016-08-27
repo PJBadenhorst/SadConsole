@@ -1,4 +1,4 @@
-﻿namespace SadConsole.Game.Entitas {
+﻿namespace Entitas {
 
     /// Implement this interface if you want to create a component which you can add to an entity.
     /// Optionally, you can add these attributes:

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace SadConsole.Game.Entitas {
+namespace Entitas {
 
     /// Use pool.CreateEntity() to create a new entity and pool.DestroyEntity() to destroy it.
     /// You can add, replace and remove IComponent to an entity.

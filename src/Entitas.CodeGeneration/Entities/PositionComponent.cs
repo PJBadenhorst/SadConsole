@@ -1,4 +1,4 @@
-﻿using SadConsole.Game.Entitas;
+﻿using Entitas;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,8 +9,8 @@ namespace EntitasCodeGeneration
 {
     public class PositionComponent :IComponent
     {
-        public int X;
-        public int Y;
-        public int Z;
+        public int x;
+        public int y;
+        public int z;
     }
 }

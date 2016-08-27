@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
-using SadConsole.Game.Entitas.Serialization;
+using Entitas.Serialization;
 
-namespace SadConsole.Game.Entitas.CodeGenerator {
+namespace Entitas.CodeGenerator {
     public class ComponentInfo {
 
         public string fullTypeName { get { return _fullTypeName; } }

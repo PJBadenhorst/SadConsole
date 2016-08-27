@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-using SadConsole.Game.Entitas;
+using Entitas;
 
-namespace SadConsole.Game.Entitas {
+namespace Entitas {
     public partial class Matcher : IAllOfMatcher, IAnyOfMatcher, INoneOfMatcher {
         public int[] indices {
             get {

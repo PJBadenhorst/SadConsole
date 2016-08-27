@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Linq;
 
-namespace SadConsole.Game.Entitas.CodeGenerator {
+namespace Entitas.CodeGenerator {
 
     public class PoolAttributesGenerator : IPoolCodeGenerator {
 
@@ -15,7 +15,7 @@ namespace SadConsole.Game.Entitas.CodeGenerator {
         }
 
         static string generatePoolAttributes(string poolName) {
-            return string.Format(@"using SadConsole.Game.Entitas.CodeGenerator;
+            return string.Format(@"using Entitas.CodeGenerator;
 
 public class {0}Attribute : PoolAttribute {{
     public {0}Attribute() : base(""{0}"") {{

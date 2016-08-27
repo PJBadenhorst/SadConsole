@@ -1,4 +1,4 @@
-﻿namespace SadConsole.Game.Entitas {
+﻿namespace Entitas {
     public static class GroupExtension {
 
         /// Creates a GroupObserver for this group.

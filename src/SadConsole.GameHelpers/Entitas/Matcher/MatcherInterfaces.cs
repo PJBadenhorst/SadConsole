@@ -1,4 +1,4 @@
-﻿namespace SadConsole.Game.Entitas {
+﻿namespace Entitas {
     public interface ICompoundMatcher : IMatcher {
         int[] allOfIndices { get; }
         int[] anyOfIndices { get; }

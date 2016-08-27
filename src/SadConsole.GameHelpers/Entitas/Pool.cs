@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace SadConsole.Game.Entitas {
+namespace Entitas {
 
     /// A pool manages the lifecycle of entities and groups.
     /// You can create and destroy entities and get groups of entities.
